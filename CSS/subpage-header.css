@@ -9,7 +9,7 @@ html {
 }
 
 .page {
-  background-image: linear-gradient(180deg, rgb(241, 208, 179), #ffffff);
+  background-image: linear-gradient(rgb(202, 236, 247), #ffffff);
   background-repeat: no-repeat;
 }
 
@@ -17,29 +17,29 @@ html {
   margin-top: 2%;
   font-size: 35px;
   text-align: center;
-}
-
-.sub-title {
-  margin-top: 1%;
-  font-size: 20px;
-  text-align: center;
-  font-style: italic;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px black;
 }
 
 .navbox {
   text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .navbox li {
   display: inline-block;
-  padding-inline: 80px;
+  padding-inline: 40px;
   margin-top: 40px;
-  color: black;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px black;
   font-size: 20px;
 }
 
 .navbox li a {
-  color: black;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px black;
   text-decoration: none;
 }
 
@@ -47,10 +47,13 @@ html {
   border-color: rgb(241, 208, 179);
   border-style: ridge;
   border-width: 5px;
+  border-radius: 15%;
 }
 
 .active {
   border-color: rgb(241, 208, 179);
   border-style: groove;
   border-width: 5px;
+  border-radius: 15%;
 }
+
